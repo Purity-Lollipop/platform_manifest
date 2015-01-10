@@ -27,11 +27,11 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
+  <project path="device/asus/flo" name="platform_device_asus_flo" groups="device,flo" remote="purity-lollipop" revision="lollipop" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
   <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu" clone-depth="1" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
+  <project path="device/asus/grouper" name="platform_device_asus_grouper" groups="device,grouper" remote="purity-lollipop" revision="lollipop" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
@@ -59,7 +59,7 @@
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
+  <project path="device/samsung/manta" name="platform_device_samsung_manta" groups="device,manta" remote="purity-lollipop" revision="lollipop" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -310,7 +310,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="purity-lollipop" revision="lollipop" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -338,7 +338,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="purity-lollipop" revision="lollipop" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
@@ -410,7 +410,7 @@
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="purity-lollipop" revision="lollipop" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
@@ -515,5 +515,13 @@
   <project path="manifest" name="platform_manifest" remote="purity-lollipop" revision="lollipop" />
   <project path="vendor/purity" name="platform_vendor_purity" remote="purity-lollipop" revision="lollipop" />
   <project path="vendor/lge" name="platform_vendor_lge" remote="AndroidRul3z" revision="lollipop" />
-
+  <project path="vendor/samsung" name="platform_vendor_samsung" remote="AndroidRul3z" revision="lollipop" />
+  <project path="vendor/nvidia" name="platform_vendor_nvidia" remote="AndroidRul3z" revision="lollipop" />
+  <project path="vendor/widevine" name="platform_vendor_widevine" remote="AndroidRul3z" revision="lollipop" />
+  <project path="vendor/nxp" name="platform_vendor_nxp" remote="AndroidRul3z" revision="lollipop" />
+  <project path="vendor/invensense" name="platform_vendor_invensense" remote="AndroidRul3z" revision="lollipop" />
+  <project path="vendor/elan" name="platform_vendor_elan" remote="AndroidRul3z" revision="lollipop" />
+  <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="AndroidRul3z" revision="lollipop" />
+  <project path="vendor/audience" name="platform_vendor_audience" remote="AndroidRul3z" revision="lollipop" />
+  <project path="vendor/asus" name="platform_vendor_asus" remote="AndroidRul3z" revision="lollipop" />
 </manifest>
