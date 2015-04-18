@@ -26,13 +26,9 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="platform_device_asus_flo" groups="device,flo" remote="purity-lollipop" revision="lollipop-mr1" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
-  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu" />
-  <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu" clone-depth="1" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" groups="device,grouper" remote="purity-lollipop" revision="lollipop-mr1" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -50,8 +46,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
-  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
   <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" groups="device,hammerhead" remote="purity-lollipop" revision="lollipop-mr1" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
   <project path="device/lge/mako" name="platform_device_lge_mako" groups="device,mako" remote="purity-lollipop" revision="lollipop-mr1" />
@@ -369,7 +363,6 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
@@ -387,7 +380,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="purity-lollipop" revision="lollipop-mr1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
@@ -401,7 +393,6 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="purity-lollipop" revision="lollipop-mr1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
@@ -415,7 +406,6 @@
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="purity-lollipop" revision="lollipop-mr1" />
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" />
@@ -518,7 +508,7 @@
   <!-- Purity extra-projects -->
   <project path="manifest" name="platform_manifest" remote="purity-lollipop" revision="lollipop-mr1" />
   <project path="vendor/purity" name="platform_vendor_purity" remote="purity-lollipop" revision="lollipop-mr1" />
-  <project path="vendor/lge" name="platform_vendor_lge" remote="AndroidRul3z" revision="lollipop" />
+  <project path="vendor/lge" name="platform_vendor_lge" remote="AndroidRul3z" revision="lollipop-mr1" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="AndroidRul3z" revision="lollipop" />
   <project path="vendor/nvidia" name="platform_vendor_nvidia" remote="AndroidRul3z" revision="lollipop" />
   <project path="vendor/widevine" name="platform_vendor_widevine" remote="AndroidRul3z" revision="lollipop" />
@@ -528,5 +518,5 @@
   <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="AndroidRul3z" revision="lollipop" />
   <project path="vendor/audience" name="platform_vendor_audience" remote="AndroidRul3z" revision="lollipop" />
   <project path="vendor/asus" name="platform_vendor_asus" remote="AndroidRul3z" revision="lollipop" />
-  <project path="vendor/motorola" name="platform_vendor_motorola" remote="AndroidRul3z" revision="lollipop" />
+  <project path="vendor/motorola" name="platform_vendor_motorola" remote="AndroidRul3z" revision="lollipop-mr1" />
 </manifest>
