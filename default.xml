@@ -518,5 +518,5 @@
   <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="AndroidRul3z" revision="lollipop" />
   <project path="vendor/audience" name="platform_vendor_audience" remote="AndroidRul3z" revision="lollipop" />
   <project path="vendor/asus" name="platform_vendor_asus" remote="AndroidRul3z" revision="lollipop" />
-  <project path="vendor/motorola" name="platform_vendor_motorola" remote="AndroidRul3z" revision="lollipop-mr1" />
+  <project path="vendor/moto" name="platform_vendor_moto" remote="AndroidRul3z" revision="lollipop-mr1" />
 </manifest>
