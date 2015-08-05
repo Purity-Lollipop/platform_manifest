@@ -281,7 +281,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="purity-lollipop" revision="lollipop-mr1" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="purity-lollipop" revision="lollipop-mr1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -315,7 +315,7 @@
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
+  <project path="frameworks/webview" name="platform_frameworks_webview" groups="pdk-cw-fs" remote="purity-lollipop" revision="lollipop-mr1" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
@@ -519,4 +519,5 @@
   <project path="vendor/audience" name="platform_vendor_audience" remote="AndroidRul3z" revision="lollipop" />
   <project path="vendor/asus" name="platform_vendor_asus" remote="AndroidRul3z" revision="lollipop" />
   <project path="vendor/moto" name="platform_vendor_moto" remote="AndroidRul3z" revision="lollipop-mr1" />
+
 </manifest>
